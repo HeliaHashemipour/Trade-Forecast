@@ -12,7 +12,6 @@ This repository contains a Jupyter Notebook that demonstrates how to use a MLP m
 
 - pip install -r requirements.txt
 
-
 - Load Data: The code loads yearly time series GDP data from the 'merged_data.csv' file using Pandas. Make sure you have the 'merged_data.csv' file in the same directory as the notebook.
 
 - Sort Data: The data is sorted in ascending order based on the 'Year' column using the 'sort_values' function.
@@ -37,9 +36,7 @@ Mean Squared Error: The Mean Squared Error (MSE) is calculated to evaluate the p
 
 - Visualization: The original and predicted GDP values for Canada are visualized using matplotlib.
 
-** Additional Notes **
-The code uses a fixed window size ('window_length') for the MLP model. You can experiment with different window sizes to see how it affects the model's performance.
-
-If you want to use data for other countries, ensure that you have the corresponding GDP data in the 'merged_data.csv' file or update the code to load data from a different CSV file.
-
-This code provides a basic implementation of MLP for GDP prediction. For real-world applications, consider further optimizations, hyperparameter tuning, and more sophisticated MLP architectures.
+> [!NOTE]
+> The code uses a fixed window size ('window_length') for the MLP model. You can experiment with different window sizes to see how it affects the model's performance.
+> If you want to use data for other countries, ensure that you have the corresponding GDP data in the 'merged_data.csv' file or update the code to load data from a different CSV file.
+> This code provides a basic implementation of MLP for GDP prediction. For real-world applications, consider further optimizations, hyperparameter tuning, and more sophisticated MLP architectures.
